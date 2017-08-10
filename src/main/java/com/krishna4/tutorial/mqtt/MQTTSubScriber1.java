@@ -7,6 +7,10 @@ import java.sql.Timestamp;
 
 public class MQTTSubScriber1 implements MqttCallback {
 
+    public static void main(String[] args) throws Exception {
+        new MQTTSubScriber1().setup();
+    }
+
     public void setup() throws Exception {
         String broker = "tcp://0.0.0.0:1883";
         String clientId = "paho-java-client-first-subscriber";
@@ -19,10 +23,6 @@ public class MQTTSubScriber1 implements MqttCallback {
         sampleClient.subscribe("even");
 
 
-    }
-
-    public static void main(String[] args) throws Exception {
-        new MQTTSubScriber1().setup();
     }
 
     /**
