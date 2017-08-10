@@ -1,22 +1,22 @@
 # mqttSample
-Using mqtt implemented a simple publish and subscribe model
+Using mqtt and eclipse paho client implemented a simple publish and subscribe model
 
-After Compiling
 
-To Start MQTT Server locally:
+### To Start MQTT Server locally:
 
-java Main
+> java Main
 
-defaultport: 1883
+## defaultport: 1883
 
-To Start Subscribers
+## To Start Subscribers
 
-java MQTTSubScriber1.java
-java MQTTSubScriber2.java
+> java MQTTSubScriber1
 
-To Start brokwer
+> java MQTTSubScriber2
 
-java MQTTBroker.java
+## To Start brokwer
+
+> java MQTTBroker
 
 
 
